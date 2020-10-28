@@ -135,7 +135,7 @@ export default function App() {
               />
           </div>
       </div>
-      {user?.displayName ? <ImageUpload username={user.displayName} /> : <h3>Login to upload</h3>}
+      {user?.displayName ? <ImageUpload username={user.displayName} /> : null}
     </div>
   )
 }
